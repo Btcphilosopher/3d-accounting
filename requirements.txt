@@ -1,0 +1,24 @@
+# requirements.txt — 3-D Reflexive Accounting System
+#
+# Install with:
+#   pip install -r requirements.txt
+#
+# Minimum Python version: 3.11
+
+# ── HTTP client (market data) ─────────────────────────────────────────────────
+requests>=2.31.0
+
+# ── CLI formatting ────────────────────────────────────────────────────────────
+rich>=13.7.0
+
+# ── Web API ───────────────────────────────────────────────────────────────────
+fastapi>=0.111.0
+uvicorn[standard]>=0.29.0
+pydantic>=2.7.0
+
+# ── Scheduling (optional; used in main.py via threading) ─────────────────────
+# No extra package required — Python stdlib threading is used.
+
+# ── Testing (optional) ───────────────────────────────────────────────────────
+# pytest>=8.0
+# httpx>=0.27.0   # for FastAPI TestClient
