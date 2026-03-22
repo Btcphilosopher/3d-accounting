@@ -1,6 +1,6 @@
 # 3-D Reflexive Accounting System
 
-A **real-time, market-linked, reflexive double-entry ledger** built in Python 3.11.
+A **real-time, market-linked, reflexive triple-entry ledger** built in Python 3.11.
 
 ---
 
